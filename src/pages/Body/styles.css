@@ -2,8 +2,8 @@ body{
   background: linear-gradient(270deg,#071b52 0,teal);
 }
 main{
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px,0.2fr));
   justify-content: center;
 }
